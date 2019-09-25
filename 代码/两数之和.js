@@ -18,4 +18,4 @@ var twoSum = function (nums, target) {
     }
   }
 }
-console.log(twoSum([1,3, 3], 6))
+console.log(twoSum([1, 3, 3], 6))
