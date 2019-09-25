@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            "program": "${workspaceFolder}\\sum.js"
+            "program": "${workspaceFolder}\\代码\\两数之和.js"
         }
 
     ]
