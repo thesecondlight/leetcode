@@ -1,15 +1,23 @@
 {
   "name": "js",
   "version": "1.0.0",
-  "description": "",
+  "description": "题号 | 题名\r | - | :-: \r 1 | [两数之和](https://github.com/thesecondlight/leetcode/blob/master/代码/两数之和.js)\r 7 | [整数反转](https://github.com/thesecondlight/leetcode/blob/master/代码/整数反转.js)",
   "main": "sum.js",
   "dependencies": {
     "standard": "^14.3.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "standard && node my-tests.js"
+    "test": "ping 127.0.0.1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesecondlight/leetcode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thesecondlight/leetcode/issues"
+  },
+  "homepage": "https://github.com/thesecondlight/leetcode#readme"
 }
