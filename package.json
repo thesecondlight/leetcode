@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/thesecondlight/leetcode/issues"
   },
+  "standard":{
+    "globals": [ "describe" ]
+  },
   "homepage": "https://github.com/thesecondlight/leetcode#readme"
 }
