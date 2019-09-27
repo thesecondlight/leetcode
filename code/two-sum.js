@@ -1,9 +1,4 @@
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
-var twoSum = function (nums, target) {
+const twoSum = function (nums, target) {
   const obj = new Map()
   const array = []
 
@@ -18,4 +13,4 @@ var twoSum = function (nums, target) {
     }
   }
 }
-console.log(twoSum([1, 3, 3], 6))
+module.exports = twoSum

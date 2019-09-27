@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "题号 | 题名\r | - | :-: \r 1 | [两数之和](https://github.com/thesecondlight/leetcode/blob/master/代码/两数之和.js)\r 7 | [整数反转](https://github.com/thesecondlight/leetcode/blob/master/代码/整数反转.js)",
   "main": "sum.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
     "standard": "^14.3.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "ping 127.0.0.1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
@@ -19,8 +21,10 @@
   "bugs": {
     "url": "https://github.com/thesecondlight/leetcode/issues"
   },
-  "standard":{
-    "globals": [ "describe" ]
+  "standard": {
+    "globals": [
+      "describe"
+    ]
   },
   "homepage": "https://github.com/thesecondlight/leetcode#readme"
 }
