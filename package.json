@@ -24,7 +24,7 @@
   },
   "standard": {
     "globals": [
-      "describe"
+      "describe","it"
     ]
   },
   "homepage": "https://github.com/thesecondlight/leetcode#readme"
