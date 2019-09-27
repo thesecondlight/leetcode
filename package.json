@@ -1,7 +1,7 @@
 {
-  "name": "js",
+  "name": "leetcode",
   "version": "1.0.0",
-  "description": "题号 | 题名\r | - | :-: \r 1 | [两数之和](https://github.com/thesecondlight/leetcode/blob/master/代码/两数之和.js)\r 7 | [整数反转](https://github.com/thesecondlight/leetcode/blob/master/代码/整数反转.js)",
+  "description": "leetcode-算法题(js)和数据库",
   "main": "sum.js",
   "dependencies": {},
   "devDependencies": {
@@ -10,7 +10,8 @@
     "standard": "^14.3.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "s":"standard"
   },
   "author": "",
   "license": "ISC",
