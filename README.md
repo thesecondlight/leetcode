@@ -17,3 +17,4 @@
 181 | [超过经理收入的员工](https://github.com/thesecondlight/leetcode/blob/master/sql/employees-earning-more-than-their-managers.md)
 182 | [查找重复的电子邮箱](https://github.com/thesecondlight/leetcode/blob/master/sql/duplicate-emails.md)
 183 | [从不订购的客户](https://github.com/thesecondlight/leetcode/blob/master/sql/customers-who-never-order.md)
+196 | [删除重复的电子邮箱](https://github.com/thesecondlight/leetcode/blob/master/sql/delete-duplicate-emails.md)
