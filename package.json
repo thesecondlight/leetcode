@@ -10,8 +10,8 @@
     "standard": "^14.3.1"
   },
   "scripts": {
-    "test": "mocha",
-    "s":"standard"
+    "test": "standard",
+    "cov":"nyc mocha"
   },
   "author": "",
   "license": "ISC",
@@ -24,7 +24,8 @@
   },
   "standard": {
     "globals": [
-      "describe","it"
+      "describe",
+      "it"
     ]
   },
   "homepage": "https://github.com/thesecondlight/leetcode#readme"
