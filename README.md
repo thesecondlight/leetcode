@@ -1,5 +1,7 @@
 # leetcode
-<h4>算法题(js)</h4>
+
+##### 算法题(js)
+
 题号 | 题名
 | - | :-: 
 1 | [两数之和](https://github.com/thesecondlight/leetcode/blob/master/code/two-sum.js)
@@ -10,7 +12,8 @@
 27 | [移除元素](https://github.com/thesecondlight/leetcode/blob/master/code/remove-element.js)
 35 | [搜索插入位置](https://github.com/thesecondlight/leetcode/blob/master/code/search-insert-position.js)
 
-<h4>数据库</h4>
+##### 数据库
+
 题号 | 题名
 | - | :-: 
 175 | [组合两个表](https://github.com/thesecondlight/leetcode/blob/master/sql/two-sum.md)
