@@ -10,7 +10,7 @@
 27 | [移除元素](https://github.com/thesecondlight/leetcode/blob/master/code/remove-element.js)
 35 | [搜索插入位置](https://github.com/thesecondlight/leetcode/blob/master/code/search-insert-position.js)
 
-<h4></h4>数据库</h4>
+<h4>数据库</h4>
 题号 | 题名
 | - | :-: 
 175 | [组合两个表](https://github.com/thesecondlight/leetcode/blob/master/sql/two-sum.md)
