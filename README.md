@@ -11,6 +11,7 @@
 14 | [最长公共前缀](https://github.com/thesecondlight/leetcode/blob/master/code/longest-common-prefix.js)
 27 | [移除元素](https://github.com/thesecondlight/leetcode/blob/master/code/remove-element.js)
 35 | [搜索插入位置](https://github.com/thesecondlight/leetcode/blob/master/code/search-insert-position.js)
+70 | [爬楼梯](https://github.com/thesecondlight/leetcode/blob/master/code/climbing-stairs.js)
 
 ##### 数据库
 
@@ -23,3 +24,4 @@
 182 | [查找重复的电子邮箱](https://github.com/thesecondlight/leetcode/blob/master/sql/duplicate-emails.md)
 183 | [从不订购的客户](https://github.com/thesecondlight/leetcode/blob/master/sql/customers-who-never-order.md)
 196 | [删除重复的电子邮箱](https://github.com/thesecondlight/leetcode/blob/master/sql/delete-duplicate-emails.md)
+197 | [上升的温度](https://github.com/thesecondlight/leetcode/blob/master/sql/rising-temperature.md)
