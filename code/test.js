@@ -1,21 +1,17 @@
-const findMedianSortedArrays = function (nums1, nums2) {
-  const newArr = nums1.concat(nums2)
-  function sortNum (a, b) {
-    return a + b
+var plusOne = function (digits) {
+  const p = digits.length - 1
+  digits[p]++// 最后一位+1
+  for (const i in digits) {
+    if ((digits[p - i]) === 10) { // 如果进位
+      digits[p - i] = 0// 归零
+      if (p - i === 0) { // 如果当前位已经是0了
+        digits.unshift(1)// 前面加个1
+        return digits
+      }
+      digits[p - i - 1]++
+    }
   }
-  const newArrsort = newArr.sort(sortNum)
-  if (newArrsort.length % 2 === 0) {
-    const num1 = newArrsort.length / 2
-    const median = (newArrsort[num1 - 1] + newArrsort[num1]) / 2
-    return median
-  } else if (newArrsort.length % 2) {
-    const num1 = newArrsort.length / 2
-    const median = newArrsort[num1 - 0.5]
-    return median
-  }
+  return digits
 }
 
-const nums1 = [1, 12]
-const nums2 = [3, 4, 7]
-const res = findMedianSortedArrays(nums1, nums2)
-console.log(res)
+console.log(plusOne([0, 9, 9]))
