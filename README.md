@@ -14,8 +14,9 @@
 29 | [两数相除](https://github.com/thesecondlight/leetcode/blob/master/code/divide-two-integers.js)
 35 | [搜索插入位置](https://github.com/thesecondlight/leetcode/blob/master/code/search-insert-position.js)
 66 | [加一](https://github.com/thesecondlight/leetcode/blob/master/code/plus-one.js)
+67 | [二进制求和](https://github.com/thesecondlight/leetcode/blob/master/code/add-binary.js)
 70 | [爬楼梯](https://github.com/thesecondlight/leetcode/blob/master/code/climbing-stairs.js)
-
+136 | [只出现一次的数字](https://github.com/thesecondlight/leetcode/blob/master/code/single-number.js)
 ##### 数据库
 
 题号 | 题名
@@ -31,3 +32,4 @@
 184 | [部门工资最高的员工](https://github.com/thesecondlight/leetcode/blob/master/sql/department-highest-salary.md)
 196 | [删除重复的电子邮箱](https://github.com/thesecondlight/leetcode/blob/master/sql/delete-duplicate-emails.md)
 197 | [上升的温度](https://github.com/thesecondlight/leetcode/blob/master/sql/rising-temperature.md)
+620 | [有趣的电影](https://github.com/thesecondlight/leetcode/blob/master/sql/not-boring-movies.md)
