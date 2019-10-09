@@ -5,6 +5,7 @@
 题号 | 题名
 | - | :-: 
 1 | [两数之和](https://github.com/thesecondlight/leetcode/blob/master/code/two-sum.js)
+2 | [两数相加](https://github.com/thesecondlight/leetcode/blob/master/code/add-two-numbers.js)
 3 | [无重复字符的最长子串](https://github.com/thesecondlight/leetcode/blob/master/code/longest-substring-without-repeating-characters.js)
 4 | [寻找两个有序数组的中位数](https://github.com/thesecondlight/leetcode/blob/master/code/median-of-two-sorted-arrays.js)
 7 | [整数反转](https://github.com/thesecondlight/leetcode/blob/master/code/reverse-integer.js)
@@ -16,6 +17,7 @@
 66 | [加一](https://github.com/thesecondlight/leetcode/blob/master/code/plus-one.js)
 67 | [二进制求和](https://github.com/thesecondlight/leetcode/blob/master/code/add-binary.js)
 70 | [爬楼梯](https://github.com/thesecondlight/leetcode/blob/master/code/climbing-stairs.js)
+100 | [相同的树](https://github.com/thesecondlight/leetcode/blob/master/code/same-tree.js)
 136 | [只出现一次的数字](https://github.com/thesecondlight/leetcode/blob/master/code/single-number.js)
 ##### 数据库
 
@@ -33,3 +35,4 @@
 196 | [删除重复的电子邮箱](https://github.com/thesecondlight/leetcode/blob/master/sql/delete-duplicate-emails.md)
 197 | [上升的温度](https://github.com/thesecondlight/leetcode/blob/master/sql/rising-temperature.md)
 620 | [有趣的电影](https://github.com/thesecondlight/leetcode/blob/master/sql/not-boring-movies.md)
+627 | [交换工资](https://github.com/thesecondlight/leetcode/blob/master/sql/swap-salary.md)
