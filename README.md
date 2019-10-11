@@ -19,6 +19,7 @@
 69 | [x的平方根](https://github.com/thesecondlight/leetcode/blob/master/code/sqrtx.js)
 70 | [爬楼梯](https://github.com/thesecondlight/leetcode/blob/master/code/climbing-stairs.js)
 100 | [相同的树](https://github.com/thesecondlight/leetcode/blob/master/code/same-tree.js)
+112 | [路径总和](https://github.com/thesecondlight/leetcode/blob/master/code/path-sum.js)
 136 | [只出现一次的数字](https://github.com/thesecondlight/leetcode/blob/master/code/single-number.js)
 ##### 数据库
 
@@ -36,5 +37,6 @@
 196 | [删除重复的电子邮箱](https://github.com/thesecondlight/leetcode/blob/master/sql/delete-duplicate-emails.md)
 197 | [上升的温度](https://github.com/thesecondlight/leetcode/blob/master/sql/rising-temperature.md)
 595 | [大的国家](https://github.com/thesecondlight/leetcode/blob/master/sql/big-countries.md)
+596 | [超过5名学生的课](https://github.com/thesecondlight/leetcode/blob/master/sql/classes-more-than-5-students.md)
 620 | [有趣的电影](https://github.com/thesecondlight/leetcode/blob/master/sql/not-boring-movies.md)
 627 | [交换工资](https://github.com/thesecondlight/leetcode/blob/master/sql/swap-salary.md)
