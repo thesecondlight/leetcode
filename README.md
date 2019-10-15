@@ -21,6 +21,8 @@
 100 | [相同的树](https://github.com/thesecondlight/leetcode/blob/master/code/same-tree.js)
 112 | [路径总和](https://github.com/thesecondlight/leetcode/blob/master/code/path-sum.js)
 136 | [只出现一次的数字](https://github.com/thesecondlight/leetcode/blob/master/code/single-number.js)
+169 | [求众数](https://github.com/thesecondlight/leetcode/blob/master/code/majority-element.js)
+LCP 1 [猜数字](https://github.com/thesecondlight/leetcode/blob/master/code/guess-numbers.js)
 ##### 数据库
 
 题号 | 题名
