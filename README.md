@@ -18,7 +18,7 @@
 67 | [二进制求和](https://github.com/thesecondlight/leetcode/blob/master/code/add-binary.js)
 69 | [x的平方根](https://github.com/thesecondlight/leetcode/blob/master/code/sqrtx.js)
 70 | [爬楼梯](https://github.com/thesecondlight/leetcode/blob/master/code/climbing-stairs.js)
-77 | [组合](https://github.com/thesecondlight/leetcode/blob/master/code/combinations.md)
+77 | [组合](https://github.com/thesecondlight/leetcode/blob/master/code/combinations.js)
 100 | [相同的树](https://github.com/thesecondlight/leetcode/blob/master/code/same-tree.js)
 112 | [路径总和](https://github.com/thesecondlight/leetcode/blob/master/code/path-sum.js)
 136 | [只出现一次的数字](https://github.com/thesecondlight/leetcode/blob/master/code/single-number.js)
