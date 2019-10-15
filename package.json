@@ -12,6 +12,7 @@
   },
   "scripts": {
     "test":"standard",
+    "hint":"standard --fix",
     "cov":"nyc mocha"
   },
   "author": "",
