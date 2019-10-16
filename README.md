@@ -23,7 +23,9 @@
 112 | [路径总和](https://github.com/thesecondlight/leetcode/blob/master/code/path-sum.js)
 136 | [只出现一次的数字](https://github.com/thesecondlight/leetcode/blob/master/code/single-number.js)
 169 | [求众数](https://github.com/thesecondlight/leetcode/blob/master/code/majority-element.js)
+771 | [宝石和石头](https://github.com/thesecondlight/leetcode/blob/master/code/jewels-and-stones.js)
 LCP1 | [猜数字](https://github.com/thesecondlight/leetcode/blob/master/code/guess-numbers.js)
+探索递归I | [反转字符串](https://github.com/thesecondlight/leetcode/blob/master/code/reverseString.js)
 ##### 数据库
 
 题号 | 题名
