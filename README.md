@@ -46,3 +46,4 @@ LCP1 | [猜数字](https://github.com/thesecondlight/leetcode/blob/master/code/g
 620 | [有趣的电影](https://github.com/thesecondlight/leetcode/blob/master/sql/not-boring-movies.md)
 626 | [换座位](https://github.com/thesecondlight/leetcode/blob/master/sql/exchange-seats.md)
 627 | [交换工资](https://github.com/thesecondlight/leetcode/blob/master/sql/swap-salary.md)
+601 | [体育馆的人流量](https://github.com/thesecondlight/leetcode/blob/master/sql/601-human-traffic-of-stadium.md)
