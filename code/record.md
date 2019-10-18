@@ -140,7 +140,7 @@ function f(n,total=1){
 
 #### 7.递归和迭代的转化 区别
 
-![1571377276911](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571377276911.png)
+![1571377276911](http://l.yumud.com/1571377276911.png)
 
 <!--(借用了别人借用的图)-->
 
@@ -224,7 +224,7 @@ COMMIT;/ROLLBACK;
 
  https://blog.csdn.net/u012371712/article/details/80795297 
 
-![1571379820232](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571379820232.png)
+![1571379820232](http://l.yumud.com/1571379820232.png)
 
 五层：应用层  传输层 网络层  连接层 物理层
 
