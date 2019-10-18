@@ -9,6 +9,7 @@
 3 | [无重复字符的最长子串](https://github.com/thesecondlight/leetcode/blob/master/code/3-longest-substring-without-repeating-characters.js)
 4 | [寻找两个有序数组的中位数](https://github.com/thesecondlight/leetcode/blob/master/code/4-median-of-two-sorted-arrays.js)
 7 | [整数反转](https://github.com/thesecondlight/leetcode/blob/master/code/7-reverse-integer.js)
+8 | [字符串转整数](https://github.com/thesecondlight/leetcode/blob/master/code/8-string-to-integer-atoi.js)
 9 | [回文数](https://github.com/thesecondlight/leetcode/blob/master/code/9-palindrome-number.js)
 14 | [最长公共前缀](https://github.com/thesecondlight/leetcode/blob/master/code/14-longest-common-prefix.js)
 27 | [移除元素](https://github.com/thesecondlight/leetcode/blob/master/code/27-remove-element.js)
