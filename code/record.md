@@ -244,3 +244,44 @@ multipart/form-data   需要在表单中进行文件上传时，使用。
 
 text/plain  数据以纯文本形式(text/json/xml/html)进行编码，不含任何控件或格式字符
 
+#### 16.string.split arr.join
+
+string.split("*") 字符串转数组 以星号作分割依据
+
+arr.join(“*”) 数组转字符串  用星号作连接
+
+#### 17.索引
+
+索引
+
+唯一索引：查到符合条件的继续查找下一项，如果下一项不符合再返回
+
+普通索引：查到符合条件的项后直接返回
+
+创建索引
+
+create index sy1 on t2019(site);
+
+添加索引
+
+alter table t2019 add index sy2(money);
+
+创建表时直接指定
+
+create table t2019(
+
+​	site int not null,
+
+​	INDEX [sy3] (site]
+
+)
+
+删除索引
+
+drop index [sy1] on t2019;
+
+唯一索引
+
+create unique index sy4 on t2019 (site)
+
+#### 18.
