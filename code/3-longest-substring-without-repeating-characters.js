@@ -12,7 +12,7 @@ var lengthOfLongestSubstring = function (s) {
     count = Math.max(count, array.length)
     i++
   }
-  console.log(s)
+  // console.log(s)
   return count
 }
-console.log(lengthOfLongestSubstring('abhazhh'))
+console.log(lengthOfLongestSubstring('abvnaz'))

@@ -1,4 +1,3 @@
-// 78-subsets.js
 var subsets = function (nums) {
   const nr = [[]]
   for (let i = 0; i < nums.length; i++) {
