@@ -26,6 +26,7 @@
 136 | [只出现一次的数字](https://github.com/thesecondlight/leetcode/blob/master/code/136-single-number.js)
 169 | [求众数](https://github.com/thesecondlight/leetcode/blob/master/code/169-majority-element.js)
 237 | [删除链表中的节点](https://github.com/thesecondlight/leetcode/blob/master/code/237-delete-node-in-a-linked-list.js)
+258 | [各位相加](https://github.com/thesecondlight/leetcode/blob/master/code/258-add-digits.js)
 535 | [TinyURL的加密与解密](https://github.com/thesecondlight/leetcode/blob/master/code/535-encode-and-decode-tinyurl.js)
 561 | [数组拆分](https://github.com/thesecondlight/leetcode/blob/master/code/array-partition-i.js)
 709 | [转换小写字母](https://github.com/thesecondlight/leetcode/blob/master/code/709-to-lower-case.js)
