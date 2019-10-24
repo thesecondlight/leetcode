@@ -33,6 +33,7 @@
 747 | [至少是其他数字两倍的最大数](https://github.com/thesecondlight/leetcode/blob/master/code/747-largest-number-at-least-twice-of-others.js)
 771 | [宝石和石头](https://github.com/thesecondlight/leetcode/blob/master/code/771-jewels-and-stones.js)
 1108 | [IP地址无效化](https://github.com/thesecondlight/leetcode/blob/master/code/1108-defanging-an-ip-address.js)
+1221 | [分割平衡字符串](https://github.com/thesecondlight/leetcode/blob/master/code/1221-split-a-string-in-balanced-strings)
 LCP1 | [猜数字](https://github.com/thesecondlight/leetcode/blob/master/code/LCP1-guess-numbers.js)
 探索递归I | [反转字符串](https://github.com/thesecondlight/leetcode/blob/master/code/TI-reverseString.js)
 探索数组 | [寻找数组的中心索引](https://github.com/thesecondlight/leetcode/blob/master/code/pivotIndex.js)
