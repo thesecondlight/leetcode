@@ -1,5 +1,14 @@
+---
+title: 学习记录
+url: 12.html
+id: 12
+categories:
+  - A coin a day
+date: 2019-10-21 11:11:18
+tags: get一个硬币 
+---
 [TOC]
-
+目录看右下角...
 
 
 #### 1.文件权限 
@@ -9,6 +18,8 @@ rwx 1 2 4
 d rwx r_x r_x
 
 d文件目录
+
+<!--more-->
 
 rwx文件所有者
 
@@ -99,6 +110,14 @@ FORMAT()格式化字段显示 eg：select data_format(now(),'%Y-%m') from t2019;
 ^匹配字符串的开始
 
 $ 匹配字符串的结束
+
+eg:
+
+\ba\w*\b   \b开始  a，任意(0或更多)数量的字母或数字(\w\*) \b结束
+
+\d+ 匹配一个或更多连续的数字(+一次或更多，*0次或更多)
+
+\b\w{6}\b 匹配刚好6个字符的单词
 
 #### 5.尾调用优化
 
@@ -206,7 +225,7 @@ COMMIT;/ROLLBACK;
 
 ##### ②悲观锁 乐观锁
 
-乐观锁 update tb set version=version+1 where version=version
+乐观锁 update tb set version=version+1 where version=version    在写操作频繁的场景下会不断发生重试，也会影响吞吐量
 
 悲观锁 set autocommit=0 (不允许自动提交)
 
@@ -219,6 +238,13 @@ COMMIT;/ROLLBACK;
 ​    3)根据主键，非主键含索引进行查询，查询到数据，主键字段产生行锁，非主键字段产生表锁（非主键字段的所有数据都会有锁）
 
 ​	4)....
+
+sequelize加排它锁
+
+await Accounts.findOne({
+    where: { name: 'HelKyle' },
+    lock: Sequelize.Transaction.LOCK.UPDATE
+});
 
 #### 13.tcp/ip
 
@@ -284,4 +310,32 @@ drop index [sy1] on t2019;
 
 create unique index sy4 on t2019 (site)
 
-#### 18.
+#### 18.sequelize事务，加锁
+
+t1 //is a transaction
+
+Model.findAll({
+
+ 	where:...
+
+},{
+
+​	transaction: t1,  //**注意
+
+​	lock: t1.LOCK.UPDATE,   //**注意
+
+​	lock: t1.LOCK.SHARE
+
+})
+
+#### 19.与 或 异或  左移 右移(按二进制位进行运算)
+
+与 &  同1为1，否则为0
+
+或 |  有1则1
+
+异或 ^  相同为1，不同为0
+
+左移 <<  左移，移出位丢弃，右边的空位补0
+
+右移 >>  右移，移出位丢弃，左边的空位补0
