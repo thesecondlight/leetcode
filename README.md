@@ -29,6 +29,7 @@
 237 | [删除链表中的节点](https://github.com/thesecondlight/leetcode/blob/master/code/237-delete-node-in-a-linked-list.js)
 258 | [各位相加](https://github.com/thesecondlight/leetcode/blob/master/code/258-add-digits.js)
 461 | [汉明距离](https://github.com/thesecondlight/leetcode/blob/master/code/461-hamming-distance.js)
+530 | [二叉搜索树的最小绝对差](https://github.com/thesecondlight/leetcode/blob/master/code/530-minimum-absolute-difference-in-bst.js)
 535 | [TinyURL的加密与解密](https://github.com/thesecondlight/leetcode/blob/master/code/535-encode-and-decode-tinyurl.js)
 561 | [数组拆分](https://github.com/thesecondlight/leetcode/blob/master/code/array-partition-i.js)
 709 | [转换小写字母](https://github.com/thesecondlight/leetcode/blob/master/code/709-to-lower-case.js)
