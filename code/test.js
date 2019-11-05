@@ -1,19 +1,20 @@
-// 78-subsets.js
-var subsets = function (left, right) {
-  const result = []
-  while (left <= right) {
-    let len = String(left).length
-    let flag = left
-    while (len > 0) {
-      const num = flag % 10
-      if (num === 0) break
-      if (left % num !== 0) break
-      flag = Math.floor(left / 10)
-      len--
-    }
-    if (len === 0) result.push(left)
-    left++
-  }
-  return result
+async function async1 () {
+  console.log('async1 start')
+  await async2()
+  console.log('async1 end')
 }
-console.log(subsets(4, 22))
+async function async2 () {
+  console.log('async2')
+}
+console.log('script start')
+setTimeout(function () {
+  console.log('setTimeout')
+}, 0)
+async1()
+new Promise(function (resolve) {
+  console.log('promise1')
+  resolve()
+}).then(function () {
+  console.log('promise2')
+})
+console.log('script end')

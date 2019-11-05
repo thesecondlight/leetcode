@@ -365,7 +365,7 @@ path.join([...paths])使用平台特定的分隔符把全部给定的 path 片�
 
 path.resolve([...paths])把路径解析为一个绝对路径
 
-#### 21.队列 BFS DFS
+#### 21.队列 BFS DFS 
 
 队列 FIFO
 
@@ -373,5 +373,13 @@ BFS应用场景：遍历和找出最短路径
 
 栈 LIFO
 
-#### 22.
+ https://leetcode-cn.com/explore/learn/card/queue-stack/218/stack-last-in-first-out-data-structure/875/ 
+
+#### 22.Number.MAX_SAFE_INTEGER      Number.MAX_VALUE
+
+Number.MAX_SAFE_INTEGER   9007199254740991 小于该值能精确表示
+
+Number.MAX_VALUE   1.7976931348623157e+308  大于该值得到的是Infinity，介于Infinity和安全值之间的无法精确表示
+
+#### 23.
 

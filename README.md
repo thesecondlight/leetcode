@@ -26,6 +26,7 @@
 136 | [只出现一次的数字](https://github.com/thesecondlight/leetcode/blob/master/code/136-single-number.js)
 169 | [求众数](https://github.com/thesecondlight/leetcode/blob/master/code/169-majority-element.js)
 202 | [快乐数](https://github.com/thesecondlight/leetcode/blob/master/code/202-happy-number.js)
+232 | [用栈实现队列](https://github.com/thesecondlight/leetcode/blob/master/code/232-implement-queue-using-stacks.js)
 237 | [删除链表中的节点](https://github.com/thesecondlight/leetcode/blob/master/code/237-delete-node-in-a-linked-list.js)
 258 | [各位相加](https://github.com/thesecondlight/leetcode/blob/master/code/258-add-digits.js)
 461 | [汉明距离](https://github.com/thesecondlight/leetcode/blob/master/code/461-hamming-distance.js)
