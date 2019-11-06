@@ -24,4 +24,5 @@ var decode = function (shortUrl) {
   return res
 }
 console.log(encode('https://leetcode.com/problems/design-tinyurl'))
-console.log(decode('https://\hhdg.//`YYhWcXY"Wca/dfcV`Yag/XYg][b!h]bmif`'))
+decode()
+// console.log(decode('https://\hhdg.//`YYhWcXY"Wca/dfcV`Yag/XYg][b!h]bmif`'))

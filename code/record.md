@@ -399,15 +399,132 @@ const assert = require('assert')
 
 (在用例集/用例函数开始执行之前/结束执行之后，进行一些环境准备或者环境清理的工作)
 
-before()
+before()  在本区块 **所有测试用例** 开始之前执行
 
-after()
+after()     在本区块 **所有测试用例** 结束之后（所有）执行
 
-beforeEach()
+beforeEach()    在本区块 **每个测试用例** 开始之前执行
 
-afterEach()
+afterEach()        在本区块 **每个测试用例** 结束之后执行
 
 例子：
 
+```javascript
+describe('top', function () {
+
+ before(function () {
+
+  console.log('top before')
+
+ })
+
+ after(function () {
+
+  console.log('top after')
+
+ })
+
+ beforeEach(function () {
+
+  console.log('top beforeEach')
+
+ })
+
+ afterEach(function () {
+
+  console.log('top afterEach')
+
+ })
+
+ it('test1', function () {
+
+  console.log('top test1')
+
+ })
+
+ describe('sublevel', function () {
+
+  before(function () {
+
+   console.log('sublevel before')
+
+  })
+
+  after(function () {
+
+   console.log('sublevel after')
+
+  })
+
+  beforeEach(function () {
+
+   console.log('sublevel beforeEach')
+
+  })
+
+  afterEach(function () {
+
+   console.log('sublevel afterEach')
+
+  })
+
+  it('test1', function () {
+
+   console.log('sublevel test1')
+
+  })
+
+  it('test2', function () {
+
+   console.log('sublevel test2')
+
+  })
+
+ })
+
+ it('test2', function () {
+
+  console.log('top test2')
+
+ })
+
+})
+
+
+```
+
+运行结果：
+
+```
+  top
+top before
+top beforeEach
+top test1
+    √ test1
+top afterEach
+top beforeEach
+top test2
+    √ test2
+top afterEach
+    sublevel
+sublevel before
+top beforeEach
+sublevel beforeEach
+sublevel test1
+      √ test1
+sublevel afterEach
+top afterEach
+top beforeEach
+sublevel beforeEach
+sublevel test2
+      √ test2
+sublevel afterEach
+top afterEach
+sublevel after
+top after
+
+
+  4 passing (12ms)
+```
 
 

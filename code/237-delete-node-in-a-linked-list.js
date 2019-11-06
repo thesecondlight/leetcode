@@ -4,3 +4,4 @@ var deleteNode = function (node) {
   // 或者深拷贝  Object.assign(node, node.next);
 }
 // 只删除即可，不用考虑链表输入
+deleteNode('a')
