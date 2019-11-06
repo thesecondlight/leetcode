@@ -381,5 +381,33 @@ Number.MAX_SAFE_INTEGER   9007199254740991 小于该值能精确表示
 
 Number.MAX_VALUE   1.7976931348623157e+308  大于该值得到的是Infinity，介于Infinity和安全值之间的无法精确表示
 
-#### 23.
+#### 23.mocha
+
+##### 主要api
+
+describe(name,fn) 定义一组测试
+
+it(name,fn)              定义一项测试
+
+##### 第三方断言库
+
+assert，chai
+
+const assert = require('assert')
+
+##### 钩子函数    
+
+(在用例集/用例函数开始执行之前/结束执行之后，进行一些环境准备或者环境清理的工作)
+
+before()
+
+after()
+
+beforeEach()
+
+afterEach()
+
+例子：
+
+
 
