@@ -555,3 +555,16 @@ top after
 
 #### 25.桶排序
 
+先找出桶中最大值最小值max min
+
+按照桶的个数num，给5
+
+桶的大小 size=(max-min+1)/num
+
+桶 buckets = new Array(num*2)
+
+初始化桶buckets[i]=[]
+
+分配数据到桶（按照数据值的分布来匹配，(arr[i]-min)/size）
+
+对每个桶进行排序
