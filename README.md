@@ -24,7 +24,7 @@
 100 | [相同的树](https://github.com/thesecondlight/leetcode/blob/master/code/100-same-tree.js)
 112 | [路径总和](https://github.com/thesecondlight/leetcode/blob/master/code/112-path-sum.js)
 136 | [只出现一次的数字](https://github.com/thesecondlight/leetcode/blob/master/code/136-single-number.js)
-164 | [最大间距]](https://github.com/thesecondlight/leetcode/blob/master/code/164-maximum-gap.js)
+164 | [最大间距](https://github.com/thesecondlight/leetcode/blob/master/code/164-maximum-gap.js)
 169 | [求众数](https://github.com/thesecondlight/leetcode/blob/master/code/169-majority-element.js)
 202 | [快乐数](https://github.com/thesecondlight/leetcode/blob/master/code/202-happy-number.js)
 232 | [用栈实现队列](https://github.com/thesecondlight/leetcode/blob/master/code/232-implement-queue-using-stacks.js)
