@@ -568,3 +568,16 @@ top after
 分配数据到桶（按照数据值的分布来匹配，(arr[i]-min)/size）
 
 对每个桶进行排序
+
+#### 26.process.argv
+
+process.argv[0] 启动node.js进程的可执行文件的所在绝对路径
+
+process.argv[1] 正在执行的js文件的路径
+
+其他元素将是任何其他命令行的参数
+
+![eg](http://l.yumud.com/record_process_argv.png)
+
+
+
