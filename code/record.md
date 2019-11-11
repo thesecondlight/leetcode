@@ -579,5 +579,35 @@ process.argv[1] 正在执行的js文件的路径
 
 ![eg](http://l.yumud.com/record_process_argv.png)
 
+#### 27.git提交冲突
 
+##### git提交冲突
+
+先切一个分支feature
+
+操作操作
+
+git add .
+
+git commit -m "操作操作"
+
+git push origin master=>报错，冲突
+
+git co dev
+
+git pull 
+
+git co feature 
+
+git rebase dev  
+
+手动解决冲突
+
+git co dev
+
+git merge --no-ff feature
+
+git push origin dev
+
+最后删掉这个分支feature
 
