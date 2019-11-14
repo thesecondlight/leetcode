@@ -634,3 +634,6 @@ function binarySearch(arr,target){
 } 
 ```
 
+Math.ceil(1.6)  2
+
+Math.floor(1.6)  1

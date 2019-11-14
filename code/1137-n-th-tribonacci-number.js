@@ -1,4 +1,4 @@
-var tn = function (n) {
+var tribonacci = function (n) {
   if (n === 0) return 0
   let t1 = 0; let t2 = 1; let t3 = 1; let temp = 1
   for (let i = 3; i <= n; i++) {
@@ -9,6 +9,6 @@ var tn = function (n) {
   }
   return temp
 }
-console.log(tn(4))
-console.log(tn(2))
-console.log(tn(0))
+console.log(tribonacci(4))
+console.log(tribonacci(2))
+console.log(tribonacci(0))
