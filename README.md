@@ -17,6 +17,7 @@
 29 | [两数相除](https://github.com/thesecondlight/leetcode/blob/master/code/29-divide-two-integers.js)
 34 | [在排序数组中查找元素的第一个和最后一个位置](https://github.com/thesecondlight/leetcode/blob/master/code/34-find-first-and-last-position-of-element-in-sorted-array.js)
 35 | [搜索插入位置](https://github.com/thesecondlight/leetcode/blob/master/code/35-search-insert-position.js)
+53 | [最大子序和](https://github.com/thesecondlight/leetcode/blob/master/code/53-maximum-subarray.js)
 66 | [加一](https://github.com/thesecondlight/leetcode/blob/master/code/66-plus-one.js)
 67 | [二进制求和](https://github.com/thesecondlight/leetcode/blob/master/code/67-add-binary.js)
 69 | [x的平方根](https://github.com/thesecondlight/leetcode/blob/master/code/69-sqrtx.js)

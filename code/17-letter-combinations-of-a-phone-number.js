@@ -23,4 +23,4 @@ var letterCombinations = function (digits) {
   }
   return t
 }
-console.log(letterCombinations('23'))
+console.log(letterCombinations('234'))

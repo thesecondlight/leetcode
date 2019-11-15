@@ -1,12 +1,17 @@
-
-
-[TOC]
-
-
-
-#### ![](http://l.yumud.com/notes.png)文件权限 
+---
+title: 学习记录
+url: 12.html
+id: 12
+categories:
+  - A coin a day
+date: 2019-10-21 11:11:18
+toc: true
+---
 
 <!--more-->
+点击页面左下方，在页面右边显示文章目录。
+
+#### ![](http://l.yumud.com/note_.png)文件权限 
 
 rwx 1 2 4
 
@@ -22,7 +27,7 @@ r_x其他人
 
 chmod更改权限 chomd 755 idnex.txt
 
-#### ![](http://l.yumud.com/notes.png)sql变量
+#### ![](http://l.yumud.com/note_.png)sql变量
 
 ##### 系统变量{全局变量(global) 会话变量(session)}  
 
@@ -50,7 +55,7 @@ show variables;优先显示会话级变量的值，如果不存在，则显示�
 
 ​                 赋值 set sum=10; select @sum:=10;
 
-#### ![](http://l.yumud.com/notes.png)sql函数
+#### ![](http://l.yumud.com/note_.png)sql函数
 
 avg()平均值
 
@@ -86,7 +91,7 @@ FORMAT()格式化字段显示 eg：select data_format(now(),'%Y-%m') from t2019;
 
  sql快速参考xi：https://www.runoob.com/sql/sql-quickref.html 
 
-#### ![](http://l.yumud.com/notes.png)
+#### ![](http://l.yumud.com/note_.png)正则表达式
 
 《正则表达式30分钟入门》 https://deerchao.cn/tutorials/regex/regex.htm 
 
@@ -156,7 +161,7 @@ eg： a.*b  匹配最长的以a开始，b结束的字符串
 
 嘻嘻：\a 报警字符(打印时，电脑嘀一声)
 
-#### ![](http://l.yumud.com/notes.png)尾调用优化
+#### ![](http://l.yumud.com/note_.png)尾调用优化
 
 尾调用：在函数的最后一步是直接返回调用另一个函数
 
@@ -186,7 +191,7 @@ function f(n,total=1){
 
 }
 
-#### ![](http://l.yumud.com/notes.png)mocha覆盖率
+#### ![](http://l.yumud.com/note_.png)mocha覆盖率
 
 %stmts %Branch % Funcs %Lines
 
@@ -194,13 +199,13 @@ function f(n,total=1){
 
 （最弱覆盖）                                      （最全）
 
-#### ![](http://l.yumud.com/notes.png)递归和迭代的转化 区别
+#### ![](http://l.yumud.com/note_.png)递归和迭代的转化 区别
 
 ![1571377276911](http://l.yumud.com/1571377276911.png)
 
 <!--(借用了别人借用的图)-->
 
-#### ![](http://l.yumud.com/notes.png)版本号
+#### ![](http://l.yumud.com/note_.png)版本号
 
 主版本号  次版本号  修订号  先行版本号  版本编译元数据(不在优先级比较的列表中)
 
@@ -216,7 +221,7 @@ Z Bug修复，不影响API兼容性，递增
 
 ~主次不变         ~1.2.3==>1.2.3<=版本号<1.3.0      1.2.x
 
-#### ![](http://l.yumud.com/notes.png)SQL自定义函数
+#### ![](http://l.yumud.com/note_.png)SQL自定义函数
 
 delimiter //
 
@@ -238,7 +243,7 @@ end
 
 **deterministic
 
-#### ![](http://l.yumud.com/notes.png)临时表 派生表
+#### ![](http://l.yumud.com/note_.png)临时表 派生表
 
 ##### 临时表 
 
@@ -250,9 +255,9 @@ end
 
 select * from (select * from others) temp;   temp即派生表
 
-#### ![](http://l.yumud.com/notes.png)事件循环
+#### ![](http://l.yumud.com/note_.png)事件循环
 
-#### ![](http://l.yumud.com/notes.png)事务 乐观锁 悲观锁
+#### ![](http://l.yumud.com/note_.png)事务 乐观锁 悲观锁
 
 ##### ①事务
 
@@ -283,7 +288,7 @@ await Accounts.findOne({
     lock: Sequelize.Transaction.LOCK.UPDATE
 });
 
-#### ![](http://l.yumud.com/notes.png)tcp/ip
+#### ![](http://l.yumud.com/note_.png)tcp/ip
 
  https://blog.csdn.net/u012371712/article/details/80795297 
 
@@ -291,13 +296,13 @@ await Accounts.findOne({
 
 五层：应用层  传输层 网络层  连接层 物理层
 
-#### ![](http://l.yumud.com/notes.png)请求方式
+#### ![](http://l.yumud.com/note_.png)请求方式
 
 get put post delete
 
 post时，填写参数  ，返回参数ctx.request.query
 
-#### ![](http://l.yumud.com/notes.png)content-type
+#### ![](http://l.yumud.com/note_.png)content-type
 
 application/json  消息主体是 序列化后的JSON字符串
 
@@ -307,13 +312,13 @@ multipart/form-data   需要在表单中进行文件上传时，使用。
 
 text/plain  数据以纯文本形式(text/json/xml/html)进行编码，不含任何控件或格式字符
 
-#### ![](http://l.yumud.com/notes.png)string.split arr.join
+#### ![](http://l.yumud.com/note_.png)string.split arr.join
 
 string.split("*") 字符串转数组 以星号作分割依据
 
 arr.join(“*”) 数组转字符串  用星号作连接
 
-#### ![](http://l.yumud.com/notes.png)索引
+#### ![](http://l.yumud.com/note_.png)索引
 
 索引
 
@@ -347,7 +352,7 @@ drop index [sy1] on t2019;
 
 create unique index sy4 on t2019 (site)
 
-#### ![](http://l.yumud.com/notes.png)sequelize事务，加锁
+#### ![](http://l.yumud.com/note_.png)sequelize事务，加锁
 
 t1 //is a transaction
 
@@ -365,7 +370,7 @@ Model.findAll({
 
 })
 
-#### ![](http://l.yumud.com/notes.png)与 或 异或  左移 右移(按二进制位进行运算)
+#### ![](http://l.yumud.com/note_.png)与 或 异或  左移 右移(按二进制位进行运算)
 
 与 &  同1为1，否则为0
 
@@ -377,7 +382,7 @@ Model.findAll({
 
 右移 >>  右移，移出位丢弃，左边的空位补0
 
-#### ![](http://l.yumud.com/notes.png)node api
+#### ![](http://l.yumud.com/note_.png)node api
 
 path.normalize(path)规范化path
 
@@ -385,7 +390,7 @@ path.join([...paths])使用平台特定的分隔符把全部给定的 path 片�
 
 path.resolve([...paths])把路径解析为一个绝对路径
 
-#### ![](http://l.yumud.com/notes.png)队列 BFS DFS 
+#### ![](http://l.yumud.com/note_.png)队列 BFS DFS 
 
 队列 FIFO
 
@@ -395,13 +400,13 @@ BFS应用场景：遍历和找出最短路径
 
  https://leetcode-cn.com/explore/learn/card/queue-stack/218/stack-last-in-first-out-data-structure/875/ 
 
-#### ![](http://l.yumud.com/notes.png)Number.MAX_SAFE_INTEGER      Number.MAX_VALUE
+#### ![](http://l.yumud.com/note_.png)Number.MAX_SAFE_INTEGER      Number.MAX_VALUE
 
 Number.MAX_SAFE_INTEGER   9007199254740991 小于该值能精确表示
 
 Number.MAX_VALUE   1.7976931348623157e+308  大于该值得到的是Infinity，介于Infinity和安全值之间的无法精确表示
 
-#### ![](http://l.yumud.com/notes.png)mocha
+#### ![](http://l.yumud.com/note_.png)mocha
 
 ##### 主要api
 
@@ -547,13 +552,13 @@ top after
   4 passing (12ms)
 ```
 
-#### ![](http://l.yumud.com/notes.png)~~ 取反 再取反
+#### ![](http://l.yumud.com/note_.png)~~ 取反 再取反
 
 ~~  不超过32位时可以用 ~~ 达到Math.floor的效果
 
 ~按位取反，~~变回原操作数，但是省略了小数部分
 
-#### ![](http://l.yumud.com/notes.png)桶排序
+#### ![](http://l.yumud.com/note_.png)桶排序
 
 先找出桶中最大值最小值max min
 
@@ -569,7 +574,7 @@ top after
 
 对每个桶进行排序
 
-#### ![](http://l.yumud.com/notes.png)process.argv
+#### ![](http://l.yumud.com/note_.png)process.argv
 
 process.argv[0] 启动node.js进程的可执行文件的所在绝对路径
 
@@ -579,7 +584,7 @@ process.argv[1] 正在执行的js文件的路径
 
 ![eg](http://l.yumud.com/record_process_argv.png)
 
-#### ![](http://l.yumud.com/notes.png)git提交冲突
+#### ![](http://l.yumud.com/note_.png)git提交冲突
 
 ##### git提交冲突
 
@@ -611,7 +616,7 @@ git push origin dev
 
 最后删掉这个分支feature
 
-#### ![](http://l.yumud.com/notes.png)二分查找
+#### ![](http://l.yumud.com/note_.png)二分查找
 
 ```js
 function binarySearch(arr,target){
@@ -633,7 +638,6 @@ function binarySearch(arr,target){
   return -1
 } 
 ```
-
 Math.ceil(1.6)  2
 
 Math.floor(1.6)  1
