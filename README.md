@@ -29,6 +29,7 @@
 101 | [对称二叉树](https://github.com/thesecondlight/leetcode/blob/master/code/101-symmetric-tree.js)
 102 | [二叉树的层次遍历](https://github.com/thesecondlight/leetcode/blob/master/code/102-binary-tree-level-order-traversal.js)
 112 | [路径总和](https://github.com/thesecondlight/leetcode/blob/master/code/112-path-sum.js)
+121 | [买卖股票的最佳时机](https://github.com/thesecondlight/leetcode/blob/master/code/121-best-time-to-buy-and-sell-stock.js)
 136 | [只出现一次的数字](https://github.com/thesecondlight/leetcode/blob/master/code/136-single-number.js)
 164 | [最大间距](https://github.com/thesecondlight/leetcode/blob/master/code/164-maximum-gap.js)
 169 | [求众数](https://github.com/thesecondlight/leetcode/blob/master/code/169-majority-element.js)
