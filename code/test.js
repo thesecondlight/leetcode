@@ -1,14 +1,11 @@
-var tn = function (n) {
-  if (n === 0) return 0
-  let t1 = 0; let t2 = 1; let t3 = 1; let temp = 1
-  for (let i = 3; i <= n; i++) {
-    temp = t1 + t2 + t3
-    t1 = t2
-    t2 = t3
-    t3 = temp
+
+function tt (num) {
+  const regStr = /^1(3|4|5|6|7|8|9)\d{9}$/
+  if (regStr.test(num)) {
+    return true
+  } else {
+    return false
   }
-  return temp
 }
-console.log(tn(4))
-console.log(tn(2))
-console.log(tn(0))
+console.log(tt(17805426701))
+console.log(tt(12))
