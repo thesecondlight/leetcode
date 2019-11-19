@@ -45,6 +45,7 @@
 530 | [二叉搜索树的最小绝对差](https://github.com/thesecondlight/leetcode/blob/master/code/530-minimum-absolute-difference-in-bst.js)
 535 | [TinyURL的加密与解密](https://github.com/thesecondlight/leetcode/blob/master/code/535-encode-and-decode-tinyurl.js)
 561 | [数组拆分](https://github.com/thesecondlight/leetcode/blob/master/code/array-partition-i.js)
+698 | [划分为k个相等的子集](https://github.com/thesecondlight/leetcode/blob/master/code/698-partition-to-k-equal-sum-subsets.js)
 709 | [转换小写字母](https://github.com/thesecondlight/leetcode/blob/master/code/709-to-lower-case.js)
 728 | [自除数](https://github.com/thesecondlight/leetcode/blob/master/code/728-self-dividing-numbers.js)
 747 | [至少是其他数字两倍的最大数](https://github.com/thesecondlight/leetcode/blob/master/code/747-largest-number-at-least-twice-of-others.js)
