@@ -14,6 +14,7 @@
 11 | [盛最多水的容器](https://github.com/thesecondlight/leetcode/blob/master/code/11-container-with-most-water.js)
 14 | [最长公共前缀](https://github.com/thesecondlight/leetcode/blob/master/code/14-longest-common-prefix.js)
 17 | [电话号码的字母组合](https://github.com/thesecondlight/leetcode/blob/master/code/17-letter-combinations-of-a-phone-number.js)
+26 | [删除排序数组中的重复项](https://github.com/thesecondlight/leetcode/blob/master/code/26-remove-duplicates-from-sorted-array.js)
 27 | [移除元素](https://github.com/thesecondlight/leetcode/blob/master/code/27-remove-element.js)
 29 | [两数相除](https://github.com/thesecondlight/leetcode/blob/master/code/29-divide-two-integers.js)
 34 | [在排序数组中查找元素的第一个和最后一个位置](https://github.com/thesecondlight/leetcode/blob/master/code/34-find-first-and-last-position-of-element-in-sorted-array.js)
