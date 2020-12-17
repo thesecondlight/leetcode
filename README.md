@@ -61,6 +61,7 @@
 LCP1 | [猜数字](https://github.com/thesecondlight/leetcode/blob/master/code/LCP1-guess-numbers.js)
 探索递归I | [反转字符串](https://github.com/thesecondlight/leetcode/blob/master/code/TI-reverseString.js)
 探索数组 | [寻找数组的中心索引](https://github.com/thesecondlight/leetcode/blob/master/code/pivotIndex.js)
+
 ##### 数据库
 
 题号 | 题名
@@ -82,3 +83,9 @@ LCP1 | [猜数字](https://github.com/thesecondlight/leetcode/blob/master/code/L
 620 | [有趣的电影](https://github.com/thesecondlight/leetcode/blob/master/sql/620-not-boring-movies.md)
 626 | [换座位](https://github.com/thesecondlight/leetcode/blob/master/sql/626-exchange-seats.md)
 627 | [交换工资](https://github.com/thesecondlight/leetcode/blob/master/sql/627-swap-salary.md)
+
+##### JS
+
+题号 | 题名
+| - | :-: 
+1 | [js去重 indexOf splice](https://github.com/thesecondlight/leetcode/blob/master/js/1-duplicateRemoval.js)
